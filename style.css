@@ -1,0 +1,14 @@
+body{
+    background-color: antiquewhite;
+}
+p{
+    color:black
+}
+#p1 span{
+    text-align: center;
+    background-color: aqua;
+}
+#p2 span{
+    text-align: center;
+    background-color: green;
+}

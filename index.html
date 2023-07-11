@@ -3,12 +3,11 @@
 <html>
 
 <head>  
-
     <title>My First Website</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-color: rgb(105, 105, 105);">
+<body>
     <h1>This is my practice website</h1>
 
     <!--This will take you to page 2-->
@@ -21,14 +20,14 @@
     <a href = "https://google.com" target = "_blank">
         <img src = "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" width="500" alt = "This is a picture of a tree" title="Tree of life">
     </a>
-    <br>
-    <audio controls> 
+    <hr>
+    <audio controls style="width: 500px;">
 
         <source src = "Ice & Fire.mp3">
         This browser does not support HTML5 audio
 
     </audio>
-    <br>
+    <hr>
     <video controls width="400">
 
         <source src = "2022-02-21_04-00-59.mp4">
@@ -37,7 +36,10 @@
     </video>
 
 
-    <p>This is a paragraph <b><big>nerd</big></b> lmao! What are you doing here?</p>
+    <p id="p1"><span>This is a paragraph <b><big>nerd</big></b> lmao! What are you doing here?</span></p>
+
+    <p id="p2"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Porro perferendis nemo possimus deleniti, totam, est repellat ad animi consectetur voluptatum soluta unde nulla non vel fuga alias ducimus at odit?</span></p>
 </body>
 
 </html>
