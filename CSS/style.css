@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: hsl(38, 22%, 93%);
 }
 
 p {
@@ -18,4 +18,22 @@ p {
 
 #HyperText {
   color: hsl(221, 100%, 50%);
+}
+
+#myNameDiv {
+  text-align: center;
+
+  width: 35%;
+  height: 125px;
+  background-image: linear-gradient(red, blue);
+  margin: auto;
+}
+
+#myNameDiv span {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+}
+
+#NameText {
+  text-shadow: 4px 10px 10px red, 4px -10px 10px blue;
 }

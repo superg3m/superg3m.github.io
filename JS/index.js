@@ -1,1 +1,1 @@
-console.l("I like powerful turtles!");
+console.log("I like powerful turtles!");
