@@ -1,77 +1,65 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
-    <title>My First Website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link rel="stylesheet" href="../CSS/style.css" />
     <script src="../JS/index.js"></script>
   </head>
-
   <body>
-    <div id="myNameDiv">
-      <h1 id="NameText"><span>Jovanni Djonaj</span></h1>
+    <h1 class="Title"><span>Jovanni Djonaj</span></h1>
+
+    <div class="grid-container">
+      <div class="grid-item">
+        <button
+          class="Button"
+          type="button"
+          onclick="location.href='./page2.html'"
+        >
+          Home Page
+        </button>
+      </div>
+
+      <div class="grid-item">
+        <button
+          class="Button"
+          type="button"
+          onclick="location.href='./page2.html'"
+        >
+          Projects
+        </button>
+      </div>
+
+      <div class="grid-item">
+        <button
+          class="Button"
+          type="button"
+          onclick="location.href='./page2.html'"
+        >
+          Tech Stack
+        </button>
+      </div>
+
+      <div class="grid-item">
+        <button
+          class="Button"
+          type="button"
+          onclick="location.href='./page2.html'"
+        >
+          Langauge Profiency
+        </button>
+      </div>
+
+      <div class="grid-item">
+        <button
+          class="Button"
+          type="button"
+          onclick="location.href='./page2.html'"
+        >
+          Contact Me
+        </button>
+      </div>
     </div>
-    <!--This will take you to page 2-->
-
-    <a
-      href="./page2.html"
-      target="_self"
-      title="Take me to the other page"
-      id="HyperText"
-    >
-      <span>Page 2</span>
-    </a>
-
-    <br />
-
-    <a
-      href="mailto: superg3m@gmail.com"
-      target="_self"
-      title="This is a tool tip"
-      id="HyperText"
-    >
-      <span>superg3m@gmail.com</span>
-    </a>
-
-    <br />
-
-    <a href="https://google.com" target="_blank">
-      <img
-        src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
-        width="500"
-        alt="This is a picture of a tree"
-        title="Tree of life"
-      />
-    </a>
-
-    <hr />
-
-    <audio controls style="width: 500px">
-      <source src="../Resources/MP3/Ice & Fire.mp3" />
-      This browser does not support HTML5 audio
-    </audio>
-
-    <hr />
-
-    <video controls width="400">
-      <source src="../Resources/MP4/2022-02-21_04-00-59.mp4" />
-      This browser does not support HTML5 video
-    </video>
-
-    <p id="p1">
-      <span>
-        This is a paragraph <b><big>nerd</big></b> lmao! What are you doing
-        here?
-      </span>
-    </p>
-
-    <p id="p2">
-      <span
-        >Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
-        perferendis nemo possimus deleniti, totam, est repellat ad animi
-        consectetur voluptatum soluta unde nulla non vel fuga alias ducimus at
-        odit?</span
-      >
-    </p>
   </body>
 </html>

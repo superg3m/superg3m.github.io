@@ -1,39 +1,78 @@
 body {
-  background-color: hsl(38, 22%, 93%);
+  background-image: url("../Resources/JPG/BlueStripe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
-p {
-  color: black;
+.HyperText {
+  color: blue;
 }
 
-#p1 span {
+.CenterText {
   text-align: center;
-  background-color: aqua;
 }
 
-#p2 span {
+.VisualizeDiv {
+  background-color: wheat;
+}
+
+.grid-container {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  justify-content: center;
   text-align: center;
-  background-color: green;
+  transform: translate(-50%, -50%);
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
 }
 
-#HyperText {
-  color: hsl(221, 100%, 50%);
+.grid-item {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: white;
 }
 
-#myNameDiv {
+.Button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-align: center;
+  text-decoration: none;
+  align-self: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
 
-  width: 35%;
-  height: 125px;
-  background-image: linear-gradient(red, blue);
+.Title {
+  text-align: center;
   margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  color: #ffffff;
+  background-color: #1e90ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#myNameDiv span {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 100px;
-}
-
-#NameText {
-  text-shadow: 4px 10px 10px red, 4px -10px 10px blue;
+.ButtonContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
 }
